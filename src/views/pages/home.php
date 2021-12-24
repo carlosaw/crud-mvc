@@ -16,11 +16,11 @@
             <td><?= $usuario['email']; ?></td>
             <td style="text-align:center;">
                 <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/editar">
-                    <img width="20" src="<?=$base;?>/assets/images/edit.png" alt="" />
+                    <img width="20" src="<?=$base;?>/assets/images/edit.png" alt="" title="Editar" />
                 </a>
                 <a href="<?=$base;?>/usuario/<?=$usuario['id'] ?>/excluir"
                     onclick="return confirm('Tem certeza que deseja excluir este usuário?')">
-                    <img width="20" src="<?=$base;?>/assets/images/del.jpg" alt="" />
+                    <img width="20" src="<?=$base;?>/assets/images/del.jpg" alt="" title="Excluir" />
                 </a>
             </td>
         </tr>
